@@ -1,0 +1,102 @@
+#acc {
+  margin: 50px auto;
+}
+.buttn {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.buttn button {
+  color: white;
+  padding: 5px 10px;
+  background: #00abff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+  margin: 2px;
+}
+.content {
+  margin: 0 auto;
+  text-align: center;
+  border-spacing: 1px;
+}
+.aca1 {
+  width: 240px;
+  height: 240px;
+}
+.aca2 {
+  width: 480px;
+  height: 480px;
+}
+.aca3 {
+  width: 720px;
+  height: 720px;
+}
+.content div {
+  line-height: 20px;
+  text-align: center;
+  display: inline-block;
+  padding: 0;
+  margin-top: -4px;
+  width: 24px;
+  height: 24px;
+  background-color: #ccc;
+  border: 2px solid;
+  border-color: #fff #a1a1a1 #a1a1a1 #fff;
+  vertical-align: top;
+}
+
+.content div.lei {
+  /* background-color: black; */
+}
+div.zero {
+  border-color: #d9d9d9;
+  background: #d9d9d9;
+}
+div.one {
+  border-color: #d9d9d9;
+  background: #d9d9d9;
+  color: #0332fe;
+}
+div.two {
+  border-color: #d9d9d9;
+  background: #d9d9d9;
+  color: #019f02;
+}
+div.three {
+  border-color: #d9d9d9;
+  background: #d9d9d9;
+  color: #ff2000;
+}
+div.four {
+  border-color: #d9d9d9;
+  background: #d9d9d9;
+  color: #93208f;
+}
+div.five {
+  border-color: #d9d9d9;
+}
+div.six {
+  border-color: #d9d9d9;
+  background: #d9d9d9;
+  color: #ff3fff;
+}
+div.seven {
+  border-color: #d9d9d9;
+  background: #d9d9d9;
+  color: #3fffbf;
+}
+div.eight {
+  border-color: #d9d9d9;
+  background: #d9d9d9;
+  color: #22ee0f;
+}
+
+.buttn button.active {
+  background: yellow;
+}
+
+.reds {
+  background-color: red;
+  background: url(./shaolei.jpg);
+}
